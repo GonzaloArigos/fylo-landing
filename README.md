@@ -1,6 +1,6 @@
 # Fylo | Cloud Storage
 
-This is a landing page for a "startup" named "Fylo".
+VueJs landing page for a "startup" named "Fylo".
 
 ## Getting Started
 After cloning the project, you have to run the next commands:
