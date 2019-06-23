@@ -1,29 +1,13 @@
-# fylo
+### Fylo
+____
+ABOUT:
+> This website was developed just for frontend portfolio in 1 day and pure CSS.
+> Fylo is just an idea for cloud services.
 
-## Project setup
-```
-npm install
-```
+### Programming Technologies
+____
+##### FRONTEND: VUE.JS
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Developers
+____
+#### FRONT-END: [Luis E. Castillo G.](http://github.com/CastilloLuis)
