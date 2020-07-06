@@ -1,21 +1,21 @@
 const data = [
     {
-        review: 'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
-        avatar: 'profile-1.jpg',
-        name: 'Statis Patel',
-        position: 'Founder & CEO, Modible'        
+        review: 'Ing en sistemas',
+        avatar: 'garigos',
+        name: 'Gonzalo Arigos',
+        position: 'Founder & CEO'        
     },
     {
-        review: 'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
-        avatar: 'profile-2.jpg',
-        name: 'Bruce McKenzie',
-        position: 'CTO Alvantia'        
+        review: 'Ing en sistemas',
+        avatar: 'gtardini',
+        name: 'Gonzalo Tardini',
+        position: 'CTO'        
     },
     {
-        review: 'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
-        avatar: 'profile-3.jpg',
-        name: 'Iva Boyd',
-        position: 'Chief Executive Officer'        
+        review: 'Lic en marketing',
+        avatar: 'earigos',
+        name: 'Ezequiel Arigos',
+        position: 'Marketing director'        
     }    
 ];
 

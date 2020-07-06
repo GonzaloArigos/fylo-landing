@@ -2,37 +2,37 @@
     <div class="services">
         <div class="services-group">
             <div data-aos="fade" class="services-group-item ">
-                <div><img src="../assets/images/icon-access-anywhere.svg" alt=""></div>
+                <div><img height="200" width="250" src="../assets/images/responsive.png" alt=""></div>
                 <div class="y-20 item-description">
-                    <span class="bold">Access your files, anywere</span>
+                    <span class="bold">Aplicaciones responsive</span>
                     <br/>
-                    <span class="size-15">The ability to use a smartphone, tablet, or computer to access your account emans your files follow you everywhere.</span>
+                    <span class="size-15">Mira tus sitios o web apps desde cualquier dispositivo. Utilizamos frameworks de última generación para lograr apps flexibles a los cambios.</span>
                 </div>
             </div>
             <div data-aos="fade" class="services-group-item ">
-                <div><img src="../assets/images/icon-security.svg" alt=""></div>
+                <div><img height="200" width="200" src="../assets/images/ssl.png" alt=""></div>
                 <div class="y-20 item-description">
-                    <span class="bold">Security you can trust</span>
+                    <span class="bold">Seguridad SSL</span>
                     <br/>
-                    <span class="size-15">2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.</span>
+                    <span class="size-15">Todas nuestras tiendas poseen certificado SSL para garantizar la mejor seguridad en las transacciones.</span>
                 </div>
             </div>            
         </div>
         <div class="services-group">
             <div data-aos="fade" class="services-group-item ">
-                <div><img src="../assets/images/icon-collaboration.svg" alt=""></div>
+                <div><img height="200" width="200" src="../assets/images/capacitacion.png" alt=""></div>
                 <div class="y-20 item-description">
-                    <span class="bold">Real-time collaboration</span>
+                    <span class="bold">Capacitación online</span>
                     <br/>
-                    <span class="size-15">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required</span>
+                    <span class="size-15">Nunca entregaremos un desarrollo sin antes haberte brindado una capacitación online para comentarte el uso de cada app y sacarte todas las dudas.</span>
                 </div>
             </div>
             <div data-aos="fade" class="services-group-item ">
-                <div><img src="../assets/images/icon-any-file.svg" alt=""></div>
+                <div><img height="200" width="200" src="../assets/images/online-store.png" alt=""></div>
                 <div class="y-20 item-description">
-                    <span class="bold">Store any type of file</span>
+                    <span class="bold">Tener una tienda online nunca fue tan facil!</span>
                     <br/>
-                    <span class="size-15">Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.</span>
+                    <span class="size-15">Creamos tu tienda online, linkeamos mercadopago para recibir pagos y capacitamos a nuestros clientes para el uso de la misma.</span>
                 </div>
             </div>   
         </div>
@@ -42,11 +42,9 @@
 <style scoped>
 * { color: white; text-align: center }
 
-.services {
-    /* background: #e1efbb url('../assets/images/bg-curvy-desktop.svg'); */
+.services {   
     display: flex;
-    flex-direction: column;
-    padding: 50px 200px 50px 200px;
+    flex-direction: column;    
 }
 
 .services-group {

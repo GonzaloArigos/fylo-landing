@@ -1,6 +1,10 @@
 <template>
-    <div class="reviews">
+<div class="mt-5">
+   <h2 class="text-white text-center">Nosotros</h2>
+    <div class="reviews mb-3 mt-2">
+    
         <div data-aos="flip-left" v-for="(review, i) in reviews" :key="i">
+           
             <ReviewCard 
                 :avatar="review.avatar"
                 :name="review.name"
@@ -8,6 +12,7 @@
                 :review="review.review"
             />
         </div>
+    </div>
     </div>
 </template>
 
@@ -42,7 +47,6 @@ export default {
 @media (min-width: 768px) and (max-width: 1024px) {
     .reviews {
         padding: 0;
-        margin-bottom: 300px;
         flex-direction: column;
         align-items: center;
     }
@@ -56,7 +60,6 @@ export default {
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .reviews {
         padding: 0;
-        margin-bottom: 300px;
         flex-direction: column;
         align-items: center;
     }
@@ -70,7 +73,6 @@ export default {
 @media (min-width: 481px) and (max-width: 767px) {
     .reviews {
         padding: 0;
-        margin-bottom: 300px;
         flex-direction: column;
         align-items: center;
     }
@@ -84,7 +86,6 @@ export default {
 @media (min-width: 320px) and (max-width: 480px) {
     .reviews {
         padding: 0;
-        margin-bottom: 300px;
         flex-direction: column;
         align-items: center;
     }
