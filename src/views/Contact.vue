@@ -18,7 +18,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    /* position: absolute; */
     bottom: 300px
 }
 
@@ -26,7 +26,7 @@ export default {
     .contact {
         bottom: 700px;
         padding: 20px;
-        width: 90%;
+        /* width: 90%; */
     }
 }
 
@@ -34,7 +34,7 @@ export default {
     .contact {
         bottom: 700px;
         padding: 20px;
-        width: 90%;
+        /* width: 90%; */
     }
 }
 
@@ -42,7 +42,7 @@ export default {
     .contact {
         bottom: 700px;
         padding: 20px;
-        width: 90%;
+        /* width: 90%; */
     }
 }
 
@@ -50,7 +50,7 @@ export default {
     .contact {
         bottom: 700px;
         padding: 20px;
-        width: 90%;
+        /* width: 90%; */
     }
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <button v-scroll-to="'.header'" class="float-btn">
+    <button v-scroll-to="'.home'" class="float-btn">
         <span class="bold white" id="arrow-float-btn">⌃</span>  
     </button>    
 </template>

@@ -1,15 +1,17 @@
 <template>
 <div class="mt-5">
-   <h2 class="text-white text-center">Nosotros</h2>
-    <div class="reviews mb-3 mt-2">
+   <h2 class="text-center">Nosotros</h2>
+    <div class="reviews mt-2">
     
         <div data-aos="flip-left" v-for="(review, i) in reviews" :key="i">
            
             <ReviewCard 
+            class="text-white minheight"
                 :avatar="review.avatar"
                 :name="review.name"
                 :position="review.position"
                 :review="review.review"
+                :frase="review.frase"
             />
         </div>
     </div>
@@ -38,10 +40,13 @@ export default {
 </script>
 
 <style>
+.minheight{
+min-height: 262px;
+}
 .reviews {
     display: flex;
     justify-content: space-between;
-    padding: 80px 100px 280px 100px;
+    padding: 80px 100px 50px 100px;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {

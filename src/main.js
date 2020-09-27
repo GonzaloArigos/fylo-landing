@@ -10,6 +10,8 @@ import 'bootstrap/js/dist/util';
 import 'bootstrap/js/dist/dropdown';
 import '@fortawesome/fontawesome-free/css/all.css'
 import '@fortawesome/fontawesome-free/js/all.js'
+import 'typeface-dohyeon'
+
 
 Vue.use(VueScrollTo);
  

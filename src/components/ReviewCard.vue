@@ -8,9 +8,14 @@
         <img class="avatar" :src="getImgUrl(avatar)" alt="avatar" />
       </div>
       <div>
-        <span class="size-15 white bold">{{name}}</span>
-        <br />
-        <span class="size-15 white">{{position}}</span>
+        <div>
+          <span class="size-15 white bold">{{name}}</span>
+          <br />
+          <span class="size-15 white">{{position}}</span>
+        </div>
+        <div class="mt-2">
+          <small>{{frase}}</small>
+        </div>
       </div>
     </div>
   </div>
@@ -20,10 +25,10 @@
 import data from "../data";
 
 export default {
-  props: ["avatar", "name", "position", "review"],
+  props: ["avatar", "name", "position", "review", "frase"],
   methods: {
     getImgUrl(name) {
-      var images = require.context("../assets/images", false, /\.jpg$/);
+      var images = require.context("./../../public/images", false, /\.jpg$/);
       return images("./" + name + ".jpg");
     }
   }
@@ -34,7 +39,7 @@ export default {
 <style>
 .review-card {
   width: 300px;
-  background-color: hsl(219, 30%, 18%);
+  background-color: #49cbd3;
   border-radius: 5px;
   padding: 30px 20px 20px 20px;
   cursor: pointer;

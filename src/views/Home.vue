@@ -1,41 +1,44 @@
 <template>
- <div>
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="../assets/images/homeimg.png" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="../assets/images/homeimg.png" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="../assets/images/homeimg.png" class="d-block w-100" alt="...">
+  <div id="carouselExampleIndicators" class="home carousel slide" data-ride="carousel">
+
+    <div class="carousel-inner" role="listbox">
+      <!-- Slide One - Set the background image for this slide in the line below -->
+      <div class="carousel-item active firstitem">
+        <div class="carousel-caption">
+          <h2 class="display-4">Dá el salto.</h2>
+          <p class="lead">Alcanzá tus objetivos de marca dando el salto, con nosotros.</p>
+          <button v-scroll-to="'.contact'" class="btn btn-info">Asesorate</button>
+        </div>
+      </div>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
- </div>
-  
 </template>
 
 <script>
 export default {
-  methods: {
-    irAIg() {
-      window.location.href = "https://instagram.com/ggdesignweb";
-    }
-  }
+  methods: {}
 };
 </script>
 
 
 <style scoped>
+.light-blue{
+  background: #008effbf;
+}
+.firstitem {
+  background-image: url("https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg?cs=srgb&dl=black-laptop-beside-black-computer-mouse-inside-room-669996.jpg&fm=jpg") !important;
+}
+.seconditem {
+  background-image: url("https://www.pexels.com/photo/4665064/download/") !important;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 </style>
 

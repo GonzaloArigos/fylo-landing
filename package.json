@@ -14,6 +14,7 @@
     "core-js": "^2.6.5",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
+    "typeface-dohyeon": "^1.0.2",
     "vue": "^2.6.10",
     "vue-displacement-slideshow": "^3.0.0",
     "vue-flat-surface-shader": "^1.0.5",

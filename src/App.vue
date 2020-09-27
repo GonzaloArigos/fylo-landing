@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <Header/>
+    <Header />
 
     <Home />
-
-    <Services/>
     <Offer />
+    <Services />
+
     <Reviews />
-    <!-- <Contact /> -->
+    <Contact />
 
     <Footer />
     <!-- <MobileMenu /> -->
 
-    <!-- <FloatButton v-if="showFlatButton" /> -->
+    <FloatButton v-if="showFlatButton" />
   </div>
 </template>
 
@@ -25,7 +25,6 @@ import Offer from "./views/Offer";
 import Reviews from "./views/Reviews";
 import Contact from "./views/Contact";
 import FloatButton from "./components/FloatButton";
-import MobileMenu from "./components/MobileMenu";
 
 export default {
   name: "app",
@@ -37,8 +36,7 @@ export default {
     Offer,
     Reviews,
     Contact,
-    FloatButton,
-    MobileMenu
+    FloatButton
   },
   data() {
     return {
@@ -69,23 +67,14 @@ export default {
 </script>
 
 <style>
-
 body {
   margin: 0;
   padding: 0;
-  background: rgb(29, 34, 48);
-  background: -webkit-linear-gradient(
-    90deg,
-    rgba(52, 70, 179, 0.43) 0%,
-    rgba(46, 73, 147, 0.74) 11%,
-    rgb(84, 84, 141) 61%,
-    rgb(42, 53, 85) 65%
-  );
   user-select: none;
   position: relative;
 }
 #app {
-  font-family: "Raleway";
+font-family: "Montserrat", sans-serif
 }
 
 .bold {
@@ -125,9 +114,6 @@ body {
   margin-top: 20px;
 }
 
-.white {
-  color: white;
-}
 
 .avatar {
   border-radius: 50%;

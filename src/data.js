@@ -1,21 +1,24 @@
 const data = [
     {
-        review: 'Ing en sistemas',
+        review: 'Ingeniero en sistemas',
         avatar: 'garigos',
         name: 'Gonzalo Arigos',
-        position: 'Founder & CEO'        
+        position: 'Founder & CEO',
+        frase: '"El mundo digital es hoy pero siempre muta, hay que identidicar como abordarlo y transformarse."'        
     },
     {
-        review: 'Ing en sistemas',
+        review: 'Ingeniero en sistemas',
         avatar: 'gtardini',
         name: 'Gonzalo Tardini',
-        position: 'CTO'        
+        position: 'CTO',
+        frase: '"La creatividad depende del valor de desprenderse de las certezas."'  
     },
     {
-        review: 'Lic en marketing',
+        review: 'Licenciado en marketing',
         avatar: 'earigos',
         name: 'Ezequiel Arigos',
-        position: 'Marketing director'        
+        position: 'Marketing director',
+        frase: '"Cuando veas un negocio exitoso, alguien alguna vez tomó una decisión valiente."'
     }    
 ];
 

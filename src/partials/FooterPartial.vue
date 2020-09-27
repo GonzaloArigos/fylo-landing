@@ -2,13 +2,13 @@
   <div class="footer">
     <div id="footer-about">
       <div id="logo">
-        <img class="img-fluid" src="../assets/logo.png" alt />
+        <img width="230" class="img-fluid logo-nav" src="./../../public/images/logo.png" alt />
       </div>
       <div id="footer-text">
         <p>
-        Seguinos en instagram y enterate de todo lo nuevo.
+          Seguinos en instagram y enterate de todo lo nuevo.
           <br />2020
-          <br />Buenos aires, Argentina
+          <br />Buenos Aires, Argentina
         </p>
       </div>
     </div>
@@ -16,14 +16,21 @@
       <!-- <div><span>+1-543-123-4567</span></div> -->
       <div class="links-list">
         <ul>
-          <li><i class="far fa-envelope"></i> Mail de contacto</li>
-          <li><i class="far fa-paper-plane"></i> ggdesignweb@gmail.com</li>
+          <li>
+            <i class="far fa-envelope"></i> Mail de contacto
+          </li>
+
+          <li>
+            <a href="mailto:ggsolutionsweb@gmail.com" target="_blank" class>ggsolutionsweb@gmail.com</a>
+          </li>
         </ul>
       </div>
     </div>
     <div class="links-list">
       <ul>
-        <li><i class="fas fa-hashtag"></i> Nuestras redes</li>
+        <li>
+          <i class="fas fa-hashtag"></i> Nuestras redes
+        </li>
         <li v-on:click="irAIg()">
           <i class="fab fa-instagram ig"></i> Instagram
         </li>
@@ -37,7 +44,7 @@
 export default {
   methods: {
     irAIg() {
-      window.location.href = "https://instagram.com/ggdesignweb";
+      window.location.href = "https://instagram.com/ggsolutionsweb";
     }
   }
 };
@@ -46,8 +53,12 @@ export default {
 .ig {
   color: #d04977;
 }
-* {
+a:hover {
   color: white;
+  text-decoration: none;
+}
+* {
+  color: black;
 }
 .footer {
   display: flex;
@@ -55,9 +66,9 @@ export default {
   align-items: center;
   padding: 100px 50px 100px 50px;
   flex-grow: 1;
-  background: hsl(216, 53%, 9%);
+  background: #ffffff;
+  border-top: 2px solid #49cbd3;
 }
-
 .footer-about {
   display: flex;
   flex-direction: column;
@@ -76,7 +87,7 @@ ul > li {
 @media (min-width: 768px) and (max-width: 1024px) {
   .footer {
     flex-direction: column;
-    padding: 200px 50px 100px 50px;
+    padding: 100px 50px 100px 50px;
     align-items: flex-start;
   }
 
@@ -88,7 +99,7 @@ ul > li {
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .footer {
     flex-direction: column;
-    padding: 200px 50px 100px 50px;
+    padding: 100px 50px 100px 50px;
     align-items: flex-start;
   }
 
@@ -100,7 +111,7 @@ ul > li {
 @media (min-width: 481px) and (max-width: 767px) {
   .footer {
     flex-direction: column;
-    padding: 200px 50px 100px 50px;
+    padding: 100px 50px 100px 50px;
     align-items: flex-start;
   }
 
@@ -112,7 +123,7 @@ ul > li {
 @media (min-width: 320px) and (max-width: 480px) {
   .footer {
     flex-direction: column;
-    padding: 200px 50px 100px 50px;
+    padding: 100px 50px 100px 50px;
     align-items: flex-start;
   }
 
