@@ -1,5 +1,5 @@
 <template>
-  <nav style="color:black" class="navbar navbar-light fixed-top navbar-expand-xl dark-transparent">
+  <nav class="navbar navbar-light navbar-expand-xl dark-transparent">
     <button
       class="navbar-toggler"
       type="button"
@@ -23,21 +23,21 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li v-scroll-to="'.offer'" class="nav-item">
+        <li v-scroll-to="'.offer'" class="nav-item tex-raviol">
           <a href="#" class="nav-link active">
-            <strong>Quiénes somos</strong>
+            <strong>Productos</strong>
           </a>
         </li>
         <li v-scroll-to="'.services'" class="nav-item active">
           <a href="#" class="nav-link">
-            <strong>Qué hacemos</strong>
+            <strong>Linea vegana</strong>
           </a>
         </li>
-        <li v-scroll-to="'.reviews'" class="nav-item active">
+        <!-- <li v-scroll-to="'.reviews'" class="nav-item active">
           <a href="#" class="nav-link">
             <strong>Nosotros</strong>
           </a>
-        </li>
+        </li> -->
         <li v-scroll-to="'.contact'" class="nav-item active">
           <a href="#" class="nav-link">
             <strong>Contactanos</strong>
@@ -51,7 +51,10 @@
 <style>
 .dark-transparent {
   background: #ffffff;
-  border-bottom: 2px solid #46d4dc; 
+  border-bottom: 2px solid #e91e28; 
   /* background: #cbcbcb5e; */
+}
+.text-raviol{
+  color: #e91e28 !important;
 }
 </style>

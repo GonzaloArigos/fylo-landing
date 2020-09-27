@@ -1,13 +1,33 @@
 <template>
-  <div id="carouselExampleIndicators" class="home carousel slide" data-ride="carousel">
-
+  <div
+    id="carouselExampleIndicators"
+    class="home carousel slide"
+    data-ride="carousel"
+  >
     <div class="carousel-inner" role="listbox">
       <!-- Slide One - Set the background image for this slide in the line below -->
       <div class="carousel-item active firstitem">
         <div class="carousel-caption">
-          <h2 class="display-4">Dá el salto.</h2>
-          <p class="lead">Alcanzá tus objetivos de marca dando el salto, con nosotros.</p>
-          <button v-scroll-to="'.contact'" class="btn btn-info">Asesorate</button>
+          <h2 class="display-3 text-raviol">Pastas Que Ravioles</h2>
+          <h4>
+            <span class="text-raviol-subtitle">
+              Fabrica de pastas artesanales</span
+            >
+          </h4>
+
+          <div class="caracteristicas p-2 mt-1">
+            <h5>
+               <span class="text-raviol-sm"> Productos 100% naturales.</span>
+            </h5>
+            <h5>
+              <span class="text-raviol-sm">
+                Elaboración diaria y artesanal.</span
+              >
+            </h5>
+            <h5>
+              <span class="text-raviol-sm"> Pastas veganas</span>
+            </h5>
+          </div>
         </div>
       </div>
     </div>
@@ -16,17 +36,17 @@
 
 <script>
 export default {
-  methods: {}
+  methods: {},
 };
 </script>
 
 
 <style scoped>
-.light-blue{
+.light-blue {
   background: #008effbf;
 }
 .firstitem {
-  background-image: url("https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg?cs=srgb&dl=black-laptop-beside-black-computer-mouse-inside-room-669996.jpg&fm=jpg") !important;
+  background-image: url("./../../public/images/portada.jpg") !important;
 }
 .seconditem {
   background-image: url("https://www.pexels.com/photo/4665064/download/") !important;
@@ -39,6 +59,10 @@ export default {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.caracteristicas {
+    background: #d0bbae80;
+    border-radius: 3%;
 }
 </style>
 

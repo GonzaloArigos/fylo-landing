@@ -4,10 +4,10 @@
 
     <Home />
     <Offer />
-    <Services />
+    <!-- <Services />
 
     <Reviews />
-    <Contact />
+    <Contact /> -->
 
     <Footer />
     <!-- <MobileMenu /> -->
@@ -120,5 +120,20 @@ font-family: "Montserrat", sans-serif
   width: 80px;
   height: 80px;
   margin-right: 10px;
+}
+
+.text-raviol {
+  color: #e91e28 !important;
+  text-decoration: underline;
+  text-shadow: 3px 3px white;
+}
+.text-raviol-subtitle {
+  color: #e91e28 !important;
+  background: white;
+}
+.text-raviol-sm {
+  color: #e91e28 !important;
+      font-weight: bold;
+
 }
 </style>

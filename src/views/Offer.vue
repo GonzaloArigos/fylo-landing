@@ -1,65 +1,129 @@
 <template>
-  <div class="offer text-black gradient">
+  <div class="offer">
+    <div class="text-black ravioles">
+      <div data-aos="fade" class="pqnosotros text-center">
+        <div class="">
+          <div class="pt-5">
+            <h2 class="text-raviol bold">Ravioles</h2>
+          </div>
+          <div class="text-who-is box p-1">
+            <h5>
+              <div class="text-white">
+                <div class="mt-2">
+                  <h5><i class="fas fa-check"></i> Nuestros ravioles:</h5>
+                </div>
 
-    <div data-aos="fade-left" class="pqnosotros firstback text-center">
-      <div class="w3-center w3-margin-bottom">
-        <div class="pt-5">
-          <h2 class="bold">NUESTRA MISION</h2>
-          <small class="text-center bold">Somos especialistas en desarrollo de software.</small>
-        </div>
-        <div class="text-who-is box p-1">
-          <h1>
-            <i class="fas fa-check-circle brand-color"></i>
-          </h1>
-          <h5>
-            <div class>
-              "Apuntamos a la
-              <b>creación</b> de alto impacto,
-              <br />generando
-              <b>soluciones de software</b>
-              <br />y diseño a medida para cada
-              <b>cliente</b>"
-            </div>
-          </h5>
+                <div><small> Pollo y verdura</small></div>
+                <div><small> Pavita y espinaca</small></div>
+                <div><small> Carne y verdura</small></div>
+                <div><small> Ricota</small></div>
+                <div><small> Ricota y verdura</small></div>
+                <div><small> Ricota y nuez</small></div>
+                <div><small> Ricota y jamón</small></div>
+                <div><small> 4 quesos con jamón</small></div>
+                <div><small> Calabaza y parmesano</small></div>
+                <div><small> Verdura</small></div>
+                <div class="mt-2">
+                  <small
+                    >Elaborados diariamente con materia prima de máxima calidad.
+                    Sin conservantes ni aditivos. 100% naturales.</small
+                  >
+                </div>
+              </div>
+            </h5>
+          </div>
         </div>
       </div>
     </div>
+    <div class="text-black noqui">
+      <div data-aos="fade-right" class="pqnosotros text-center">
+        <div class="">
+          <div class="pt-5">
+            <h2 class="text-raviol bold">Nuestros Ñoquis</h2>
+          </div>
+          <div class="text-who-is box p-1">
+            <h5>
+              <div class="text-white">
+                <div class="mt-2">
+                  <h5>
+                    <i class="fas fa-check"></i> No te quedes sin tus ñoquis...
+                  </h5>
+                </div>
 
-    <div data-aos="fade-left" class="pqnosotros firstback text-center">
-      <div class="w3-center w3-margin-bottom">
-        <div class="pt-5">
-          <h2 class="bold">¿QUÉ BUSCAMOS?</h2>
-        </div>
-        <div class="text-who-is box p-1">
-          <h1>
-            <i class="fas fa-search-dollar brand-color"></i>
-          </h1>
-          <h5>
-            <div class>
-              <div class="white">Queremos que te animes a <b>dar el salto.</b></div>
-              <div class="white">Te acompañaremos dando la mejor solución <b>de software.</b></div>
-              <div
-                class="white"
-              >Nos centramos exclusivamente en cada <b>cliente</b> con capacitación y apuntando al <b>crecimiento</b> del negocio.</div>
-            </div>
-          </h5>
+                <div><small> Ñoquis de papa</small></div>
+                <div><small> Ñoquis de ricota</small></div>
+                <div><small> Carne y verdura</small></div>
+                <div><small> Ñoquis de calabaza</small></div>
+                <div><small> Ñoquis mixtos</small></div>
+                <div><small> Ricota y nuez</small></div>
+                <div><small> Ahora también Ñoquis a la Romana de:</small></div>
+                <div><small> queso</small></div>
+                <div><small> jamón y queso</small></div>
+              </div>
+            </h5>
+          </div>
         </div>
       </div>
     </div>
+    <div class="text-black tortelettis">
+      <div data-aos="fade-left" class="pqnosotros text-center">
+        <div class="">
+          <div class="pt-5">
+            <h2 class="text-raviol bold">Tortelettis</h2>
+          </div>
+          <div class="text-who-is box p-1">
+            <h5>
+              <div class="text-white">
+                <div class="mt-2">
+                  <h5>
+                    <i class="fas fa-check"></i> Rellenos de pollo, jamón y
+                    queso parmesano.
+                  </h5>
+                </div>
 
-    <div data-aos="fade-left" class="pqnosotros firstback text-center p-5">
-      <button v-scroll-to="'.services'" class="btn btn-info">Ver servicios</button>
+                <div><small> Tips</small></div>
+                <div><small> 👩‍🍳 Cocción: hervir durante 8 minutos.</small></div>
+                <div><small> 🤯 Fritos son un riquísimo.</small></div>
+                <div><small> 🍻 acompañamiento en una picada.</small></div>
+              </div>
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>    
+    <div class="text-black tallarines">
+      <div data-aos="fade" class="pqnosotros text-center">
+        <div class="">
+          <div class="pt-5">
+            <h2 class="text-raviol bold">Tallarines</h2>
+          </div>
+          <div class="text-who-is box p-1">
+            <h5>
+              <div class="text-white">
+                <div class="mt-2">
+                  <h5>
+                    Probá nuestros tallarines de:
+                  </h5>
+                </div>
+                <div><small> Huevo</small></div>
+                <div><small> Espinaca</small></div>
+                <div><small> Morrón</small></div>
+                <div><small> Cúrcuma (apto vegano)</small></div>
+                <div><small> Integral</small></div>
+                <div class="mt-3"><h4> <i class="fas fa-utensils"></i> </h4></div>
+                <div><small> Nuestros tallarines están elaborados 100% con semolin de trigo. Aporta hidratos de carbono complejos. Estos son importantes para las personas con diabetes ya que evitan el aumento rápido de los azúcares en sangre, pero además es útil para la alimentación de los deportistas y personas que tienen que realizar un trabajo intenso durantes largos períodos.</small></div>
+              </div>
+            </h5>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <style>
-.brand-color{
+.brand-color {
   color: #46d4dc;
-}
-.gradient {
-  height: 100%;
-  /* background: linear-gradient(to right, #46d4dc, #46d4dc) */
 }
 
 .bordered {
@@ -67,8 +131,7 @@
   /* border-bottom: 10px solid #c7a511; */
 }
 .box {
-  background: linear-gradient(to right, #9696960a, #cabd770f);
-  border: 1px solid #46d4dc;
+  background: #0000006b;
   border-radius: 3%;
 }
 .lamp {
@@ -82,6 +145,23 @@
 
 .text-who-is {
   letter-spacing: 2px;
+}
+
+.ravioles {
+  background-image: url("./../../public/images/portada.jpg") !important;
+  background-size: cover;
+}
+.noqui {
+  background-image: url("./../../public/images/noqui.jpg") !important;
+  background-size: cover;
+}
+.tortelettis {
+  background-image: url("./../../public/images/tortelettis.jpg") !important;
+  background-size: cover;
+}
+.tallarines {
+  background-image: url("./../../public/images/tallarines.jpg") !important;
+  background-size: cover;
 }
 
 .pqnosotros {

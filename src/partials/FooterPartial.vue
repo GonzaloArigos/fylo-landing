@@ -1,52 +1,63 @@
 <template>
   <div class="footer">
     <div id="footer-about">
-      <div id="logo">
-        <img width="230" class="img-fluid logo-nav" src="./../../public/images/logo.png" alt />
+      <!-- <div id="logo">
+        <img
+          width="230"
+          class="img-fluid logo-nav"
+          src="./../../public/images/logo.png"
+          alt
+        />
       </div>
       <div id="footer-text">
         <p>
           Seguinos en instagram y enterate de todo lo nuevo.
-          <br />2020
-          <br />Buenos Aires, Argentina
+          <br />2020 <br />Buenos Aires, Argentina
         </p>
-      </div>
+      </div> -->
     </div>
     <div id="footer-contact">
-      <!-- <div><span>+1-543-123-4567</span></div> -->
       <div class="links-list">
         <ul>
           <li>
-            <i class="far fa-envelope"></i> Mail de contacto
+            <h5 class="text-success">
+              <i class="fab fa-whatsapp text-success"></i> Pedinos por WhatsApp!
+            </h5>
           </li>
 
           <li>
-            <a href="mailto:ggsolutionsweb@gmail.com" target="_blank" class>ggsolutionsweb@gmail.com</a>
+            <a href="http://wa.link/lcverc" target="_blank" class>
+              <button class="btn btn-success">
+                <h5 class="text-white">
+                  <i class="fab fa-whatsapp"></i> 114738-3570
+                </h5>
+              </button>
+            </a>
           </li>
         </ul>
       </div>
     </div>
     <div class="links-list">
       <ul>
-        <li>
-          <i class="fas fa-hashtag"></i> Nuestras redes
-        </li>
+        <li><i class="fas fa-hashtag"></i> Nuestras redes</li>
         <li v-on:click="irAIg()">
           <i class="fab fa-instagram ig"></i> Instagram
         </li>
       </ul>
+      <small
+        >Sitio web creado por ggsolutionsweb, seguinos en instragram
+        @ggsolutionsweb</small
+      >
     </div>
-
-    <div id="footer-social-networks"></div>
   </div>
 </template>
 <script>
 export default {
   methods: {
     irAIg() {
-      window.location.href = "https://instagram.com/ggsolutionsweb";
-    }
-  }
+      window.location.href = "https://instagram.com/queravioles.alvear";
+    },
+  },
 };
 </script>
 <style scoped>
@@ -67,7 +78,7 @@ a:hover {
   padding: 100px 50px 100px 50px;
   flex-grow: 1;
   background: #ffffff;
-  border-top: 2px solid #49cbd3;
+  border-top: 5px solid #e91e28;
 }
 .footer-about {
   display: flex;
