@@ -10,7 +10,7 @@
             <h5>
               <div class="text-white">
                 <div class="mt-2">
-                  <h5><i class="fas fa-check"></i> Nuestros ravioles:</h5>
+                  <h5><i class="fas fa-fire"></i> Nuestros ravioles:</h5>
                 </div>
 
                 <div><small> Pollo y verdura</small></div>
@@ -46,19 +46,79 @@
               <div class="text-white">
                 <div class="mt-2">
                   <h5>
-                    <i class="fas fa-check"></i> No te quedes sin tus ñoquis...
+                    <i class="fas fa-fire"></i> No te quedes sin tus ñoquis...
                   </h5>
                 </div>
 
-                <div><small> Ñoquis de papa</small></div>
-                <div><small> Ñoquis de ricota</small></div>
-                <div><small> Carne y verdura</small></div>
-                <div><small> Ñoquis de calabaza</small></div>
-                <div><small> Ñoquis mixtos</small></div>
-                <div><small> Ricota y nuez</small></div>
-                <div><small> Ahora también Ñoquis a la Romana de:</small></div>
-                <div><small> queso</small></div>
-                <div><small> jamón y queso</small></div>
+                <div><small> Papa</small></div>
+                <div><small> Espinaca</small></div>
+                <div><small> Calabaza</small></div>
+                <div><small> Mixtos</small></div>
+                <div><small> Veganos</small></div>
+              </div>
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-black tallarines">
+      <div data-aos="fade" class="pqnosotros text-center">
+        <div class="">
+          <div class="pt-5">
+            <h2 class="text-raviol bold">Tallarines</h2>
+          </div>
+          <div class="text-who-is box p-1">
+            <h5>
+              <div class="text-white">
+                <div class="mt-2">
+                  <h5>Probá nuestros tallarines de:</h5>
+                </div>
+                <div><small> Huevo</small></div>
+                <div><small> Espinaca</small></div>
+                <div><small> Morrón</small></div>
+                <div><small> Cúrcuma (apto vegano)</small></div>
+                <div><small> Integral</small></div>
+                <div class="mt-3">
+                  <h4><i class="fas fa-utensils"></i></h4>
+                </div>
+                <div>
+                  <small>
+                    Nuestros tallarines están elaborados 100% con semolin de
+                    trigo. Aporta hidratos de carbono complejos. Estos son
+                    importantes para las personas con diabetes ya que evitan el
+                    aumento rápido de los azúcares en sangre, pero además es
+                    útil para la alimentación de los deportistas y personas que
+                    tienen que realizar un trabajo intenso durantes largos
+                    períodos.</small
+                  >
+                </div>
+              </div>
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-black sorrentinos">
+      <div data-aos="fade-left" class="pqnosotros text-center">
+        <div class="">
+          <div class="pt-5">
+            <h2 class="text-raviol bold">Sorrentinos</h2>
+          </div>
+          <div class="text-who-is box p-1">
+            <h5>
+              <div class="text-white">
+                <div class="mt-2">
+                  <h5>
+                   <i class="fas fa-fire"></i> Disfruta de nuestros
+                    sorrentinos caseros, no te los podes perder!
+                  </h5>
+                </div>
+
+                <div><small> Calabaza y muzzarella</small></div>
+                <div class="mt-2"><small><i class="fas fa-bomb"></i> NUEVO LANZAMIENTO! <i class="fas fa-bomb"></i></small></div>
+                <div>
+                  <small> Muzzarella, jamón y cebolla finamente salteada</small>
+                </div>
               </div>
             </h5>
           </div>
@@ -76,8 +136,8 @@
               <div class="text-white">
                 <div class="mt-2">
                   <h5>
-                    <i class="fas fa-check"></i> Rellenos de pollo, jamón y
-                    queso parmesano.
+                    Rellenos de pollo, jamón y
+                    queso parmesano
                   </h5>
                 </div>
 
@@ -85,33 +145,6 @@
                 <div><small> 👩‍🍳 Cocción: hervir durante 8 minutos.</small></div>
                 <div><small> 🤯 Fritos son un riquísimo.</small></div>
                 <div><small> 🍻 acompañamiento en una picada.</small></div>
-              </div>
-            </h5>
-          </div>
-        </div>
-      </div>
-    </div>    
-    <div class="text-black tallarines">
-      <div data-aos="fade" class="pqnosotros text-center">
-        <div class="">
-          <div class="pt-5">
-            <h2 class="text-raviol bold">Tallarines</h2>
-          </div>
-          <div class="text-who-is box p-1">
-            <h5>
-              <div class="text-white">
-                <div class="mt-2">
-                  <h5>
-                    Probá nuestros tallarines de:
-                  </h5>
-                </div>
-                <div><small> Huevo</small></div>
-                <div><small> Espinaca</small></div>
-                <div><small> Morrón</small></div>
-                <div><small> Cúrcuma (apto vegano)</small></div>
-                <div><small> Integral</small></div>
-                <div class="mt-3"><h4> <i class="fas fa-utensils"></i> </h4></div>
-                <div><small> Nuestros tallarines están elaborados 100% con semolin de trigo. Aporta hidratos de carbono complejos. Estos son importantes para las personas con diabetes ya que evitan el aumento rápido de los azúcares en sangre, pero además es útil para la alimentación de los deportistas y personas que tienen que realizar un trabajo intenso durantes largos períodos.</small></div>
               </div>
             </h5>
           </div>
@@ -161,6 +194,10 @@
 }
 .tallarines {
   background-image: url("./../../public/images/tallarines.jpg") !important;
+  background-size: cover;
+}
+.sorrentinos {
+  background-image: url("./../../public/images/sorrent.png") !important;
   background-size: cover;
 }
 

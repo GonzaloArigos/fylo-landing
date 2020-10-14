@@ -1,69 +1,66 @@
 <template>
   <div class="services container mt-4">
-      <h2 class="text-center">Servicios</h2>
-    <div class="services-group">
-      
-      <div data-aos="fade" class="services-group-item">
-        <div>
-          <img height="200" width="250" src="./../../public/images/responsive.png" alt />
-        </div>
-        <div class="y-20 item-description">
-          <span class="bold">Diseño y desarrollo web responsive</span>
-          <br />
-          <span
-            class="size-15"
-          >Mira tus sitios o web apps desde cualquier dispositivo. Utilizamos frameworks de última generación para lograr apps flexibles a los cambios.</span>
-        </div>
-      </div>
-      <div data-aos="fade" class="services-group-item">
-        <div>
-          <img height="200" width="200" src="./../../public/images/online-store.png" alt />
-        </div>
-        <div class="y-20 item-description">
-          <span class="bold">Ecommerce y tienda online</span>
-          <br />
-          <span
-            class="size-15"
-          >Creamos tu tienda online, linkeamos mercadopago para recibir pagos y capacitamos a nuestros clientes para el uso de la misma.</span>
-        </div>
-      </div>
-      <div data-aos="fade" class="services-group-item">
-        <div>
-          <img height="200" width="200" src="./../../public/images/landing-page.svg" alt />
-        </div>
+    <h2 class="text-center">Nuestra</h2>
+    <h2 class="text-center">
+      LINEA
+      <span class="vegana-text bold"
+        >| VEGANA <i class="fas fa-seedling vegana-text"></i
+      ></span>
+    </h2>
 
-        <div class="y-20 item-description">
-          <span class="bold">Landing pages</span>
-          <br />
-          <span
-            class="size-15"
-          > Creamos landing pages para que puedas dar una buena imágen institucional o para potenciar tus promociones.</span>
-        </div>
-      </div>
-    </div>
     <div class="services-group">
       <div data-aos="fade" class="services-group-item">
         <div>
-          <img height="200" width="200" src="./../../public/images/capacitacion.png" alt />
+          <img
+            class="rounded-circle"
+            height="200"
+            width="250"
+            src="./../../public/images/sorrent.png"
+            alt
+          />
         </div>
         <div class="y-20 item-description">
-          <span class="bold">Capacitación online</span>
+          <h3 class="bold vegana-text">Sorrentinos</h3>
           <br />
-          <span
-            class="size-15"
-          >Nunca entregaremos un desarrollo sin antes haberte brindado una capacitación online para comentarte el uso de cada app y sacarte todas las dudas.</span>
+          <h5><i class="fas fa-seedling vegana-text"></i> Muzzarella y jamón ahumado</h5>
+          <h5><i class="fas fa-seedling vegana-text"></i>  Calabaza y muzzarella</h5>
         </div>
       </div>
       <div data-aos="fade" class="services-group-item">
         <div>
-          <img height="200" width="200" src="./../../public/images/ssl.png" alt />
+          <img
+            class="rounded-circle"
+            height="200"
+            width="250"
+            src="./../../public/images/ravioles-vegana.jpg"
+            alt
+          />
         </div>
         <div class="y-20 item-description">
-          <span class="bold">Seguridad SSL</span>
+          <h3 class="bold vegana-text">Ravioles</h3>
           <br />
-          <span
-            class="size-15"
-          >Todas nuestras tiendas poseen certificado SSL para garantizar la mejor seguridad en las transacciones.</span>
+          <h5><i class="fas fa-seedling vegana-text"></i>  Verdura y soja</h5>
+          <h5><i class="fas fa-seedling vegana-text"></i>  Tofu y nuez</h5>
+          <h5><i class="fas fa-seedling vegana-text"></i>  Tofu, nuez, jamón</h5>
+          <h5><i class="fas fa-seedling vegana-text"></i>  Tofu, nuez, verdura</h5>
+        </div>
+      </div>
+      <div data-aos="fade" class="services-group-item">
+        <div>
+          <img
+            class="rounded-circle"
+            height="200"
+            width="250"
+            src="./../../public/images/muchomas.jpg"
+            alt
+          />
+        </div>
+        <div class="y-20 item-description">
+          <h3 class="bold vegana-text">Y muchos más!</h3>
+          <br />
+          <h5><i class="fas fa-seedling vegana-text"></i> Ñoquis</h5>
+          <h5><i class="fas fa-seedling vegana-text"></i> Tapa mini tarta integral</h5>
+          <h5><i class="fas fa-seedling vegana-text"></i> Tapa empanada integral</h5>
         </div>
       </div>
     </div>
@@ -74,6 +71,10 @@
 * {
   color: black;
   text-align: center;
+}
+
+.vegana-text {
+  color: green !important;
 }
 
 .services {
@@ -90,6 +91,7 @@
   display: flex;
   flex-direction: column;
   padding: 30px;
+  border-bottom: 2px solid #e91e28;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {

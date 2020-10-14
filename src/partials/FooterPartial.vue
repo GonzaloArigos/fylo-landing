@@ -1,20 +1,21 @@
 <template>
-  <div class="footer">
+  <div class="footer contact">
     <div id="footer-about">
-      <!-- <div id="logo">
+      <div id="logo">
         <img
-          width="230"
+          width="130"
           class="img-fluid logo-nav"
           src="./../../public/images/logo.png"
           alt
         />
       </div>
-      <div id="footer-text">
-        <p>
-          Seguinos en instagram y enterate de todo lo nuevo.
-          <br />2020 <br />Buenos Aires, Argentina
-        </p>
-      </div> -->
+      <div class="mt-2" id="footer-text">
+        <h5>Horarios de atención:</h5>
+        <p>Martes a sábados: de 8:30hs a 13hs y 17hs a 19hs</p>
+        <p>Domingos: de 8:30hs a 13.20hs</p>
+        <p>Lunes: cerrados</p>
+        <p>Alvear 2125 Villa Ballester</p>
+      </div>
     </div>
     <div id="footer-contact">
       <div class="links-list">
@@ -26,13 +27,28 @@
           </li>
 
           <li>
-            <a href="http://wa.link/lcverc" target="_blank" class>
-              <button class="btn btn-success">
-                <h5 class="text-white">
-                  <i class="fab fa-whatsapp"></i> 114738-3570
-                </h5>
-              </button>
-            </a>
+            <div>
+              <a href="http://wa.link/lcverc" target="_blank" class>
+                <button class="btn btn-success">
+                  <h5 class="text-white">
+                    <i class="fab fa-whatsapp text-white"></i> 114738-3570
+                  </h5>
+                </button>
+              </a>
+            </div>
+            <div class="mt-2">
+              <a
+                href="https://order.ubereats.com/buenos-aires/food-delivery/%F0%9F%9B%92%20Que%20Ravioles/ehzBmu7KTLCrdQPwh14usQ/?utm_source=web-restaurant-manager"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <button class="btn btn-dark">
+                  <h5 class="text-white">
+                    <i class="fab fa-uber"></i> Uber Eats
+                  </h5>
+                </button>
+              </a>
+            </div>
           </li>
         </ul>
       </div>
@@ -41,13 +57,16 @@
       <ul>
         <li><i class="fas fa-hashtag"></i> Nuestras redes</li>
         <li v-on:click="irAIg()">
-          <i class="fab fa-instagram ig"></i> Instagram
+          <i class="fab fa-instagram ig"></i> queravioles.alvear
         </li>
       </ul>
-      <small
-        >Sitio web creado por ggsolutionsweb, seguinos en instragram
-        @ggsolutionsweb</small
-      >
+      <hr />
+      <a href="http://ggsolutionsweb.ml">
+        <small
+          >Sitio web creado por ggsolutionsweb, seguinos en instragram
+          @ggsolutionsweb</small
+        >
+      </a>
     </div>
   </div>
 </template>
@@ -75,7 +94,6 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 100px 50px 100px 50px;
   flex-grow: 1;
   background: #ffffff;
   border-top: 5px solid #e91e28;

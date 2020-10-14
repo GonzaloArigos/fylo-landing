@@ -4,10 +4,10 @@
 
     <Home />
     <Offer />
-    <!-- <Services />
-
+    <Services /> 
+<!-- 
     <Reviews />
-    <Contact /> -->
+    <Contact /> --> 
 
     <Footer />
     <!-- <MobileMenu /> -->

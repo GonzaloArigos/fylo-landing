@@ -12,11 +12,11 @@
       <span class="text-black navbar-toggler-icon"></span>
     </button>
 
-    <a class="navbar-brand p-2 pl-3" href="#">
+    <a class="navbar-brand" href="#">
       <img
-        width="130"
+        width="100"
         src="./../../public/images/logo.png"
-        class="img-fluid mb-0 mt-2"
+        class="img-fluid m-0"
         alt="Responsive image"
       />
     </a>
